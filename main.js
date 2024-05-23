@@ -1,5 +1,5 @@
 const button = document.querySelector("button");
-button.addEvent.Listener("click", updateName);
+button.addEventListener("click", updateName);
 function updateName(){
   const name = prompt("Enter the new name:");
   button.textContent = "Student-1: ${name}";
