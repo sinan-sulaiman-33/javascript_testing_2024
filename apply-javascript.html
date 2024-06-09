@@ -4,22 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Apply JavaScript example</title>
-    <script>
-document.addEventListener("DOMContentLoaded", () => {
-function createParagraph() {
-    const para = document.createElement("p");
-    para.textContent = "You clicked the button again!";
-    document.body.appendChild(para);
-  }
+    <script src="script.js" defer></script>
 
-  const buttons = document.querySelectorAll("button");
-
-  for (const button of buttons) {
-    button.addEventListener("click", createParagraph);
-  }
-});
-
-    </script>
 
   </head>
   <body>
